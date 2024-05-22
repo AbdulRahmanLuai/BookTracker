@@ -15,17 +15,20 @@ body{
     text-align: center;
 }
 
+.BOOKLIST {
+    list-style-type: none; /* Remove default bullet points */
+}
+
 .BOOKLIST li {
-    display: inline-block; /* Display list items inline */
-    text-align: left; /* Align text inside list items to the left */
-    margin: 0 10px; /* Adjust margin between list items */
+    text-align: center;
+    margin: 10px 10px;
 }
 
 .BOOKLIST li:before {
-    content: "\2022"; /* Use a custom bullet point (here, a black circle) */
-    color: #000; /* Set bullet point color */
-    font-size: 1.2em; /* Adjust bullet point size */
-    margin-right: 5px; /* Adjust space between bullet point and text */
+    content: "\2022";
+    color: #000;
+    font-size: 1.2em;
+    margin-right: 5px;
 }
 
 .X-btn {
