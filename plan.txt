@@ -1,0 +1,27 @@
+Requirments:
+
+- a way to add in books.
+- a way to remove added books
+- a way to remember previously added books even if tab is closed.
+- a way to save current state.
+
+
+Implementation:
+
+display books as an unordered list.
+each bullet point will have a remove button next to it.
+each bullet point will have a unique id.
+i will have a dictionary that will store each id and its corresponding book.
+I will get stored books first and display them giving each one an id number and storing them in the "have" set.
+I will then allow the user to add books and will give that book the next id number.
+If the save button is pressed. I will go over the id's in my have set and update the storage with the books that I have.
+There is no need to store anything other than the book names.
+
+for storage I have two options:
+
+- local storage: storing the list of books as a string an retieving them later..
+- IndexDb: ?
+
+I might upgrade a project and use an actual db.
+
+for now I will impolement local storage.

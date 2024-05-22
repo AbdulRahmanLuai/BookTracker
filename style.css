@@ -1,0 +1,108 @@
+body{
+    background-color: whitesmoke;
+}
+
+.BOOKLIST{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #333; /* Text color */
+    list-style-position: inside; /* Place bullet points inside list items */
+    padding-left: 0; /* Remove default padding */
+}
+.unordered-list-container {
+    text-align: center;
+}
+
+.BOOKLIST li {
+    display: inline-block; /* Display list items inline */
+    text-align: left; /* Align text inside list items to the left */
+    margin: 0 10px; /* Adjust margin between list items */
+}
+
+.BOOKLIST li:before {
+    content: "\2022"; /* Use a custom bullet point (here, a black circle) */
+    color: #000; /* Set bullet point color */
+    font-size: 1.2em; /* Adjust bullet point size */
+    margin-right: 5px; /* Adjust space between bullet point and text */
+}
+
+.X-btn {
+    background-color: rgb(101, 11, 11);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.X-btn:hover {
+    background-color: #ff1a1a;
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.submitButton {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.submitButton:hover {
+    background-color: darkblue; /* Darker Green */
+}
+.saveButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 300px;
+    height: 70px;
+    
+}
+
+.saveButton:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+.saveButton-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
