@@ -54,6 +54,7 @@ function receive(event){
     
         addBook(stringToAdd, id);
         alert("Your book was added! Don't forget to save!");
+        form.reset();
     
 }
 
