@@ -99,6 +99,7 @@ function saveState(){
 
     let state = books.join("#@#");
     localStorage.pastBooks = state;
+    alert("Saved!");
 }
 
 
